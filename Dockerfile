@@ -8,4 +8,4 @@ RUN apt-get update && \
 
 RUN git clone https://github.com/Theodlz/snid-install-ubuntu.git
 
-RUN cd snid-install-ubuntu && chmod +x install.sh && ./install.sh
+RUN cd snid-install-ubuntu && chmod +x install.sh && bash ./install.sh
