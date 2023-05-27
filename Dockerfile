@@ -1,4 +1,5 @@
-FROM ubuntu:20.04
+# use ubuntu 20.04 and enforce amd64 architecture
+FROM --platform=linux/amd64 ubuntu:20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
